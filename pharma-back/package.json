@@ -10,15 +10,14 @@
     "nodemon": "^3.1.10"
   },
   "scripts": {
-    "start": "json-server --watch db.json --port 10000"
-    
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "^0.17.3",
     "cor": "^0.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "json-server": "^0.17.4",
     "openai": "^5.1.0"
   }
-  
 }
