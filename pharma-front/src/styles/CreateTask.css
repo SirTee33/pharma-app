@@ -1,0 +1,39 @@
+.create-task-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.create-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-task-form input,
+.create-task-form textarea,
+.create-task-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.create-btn {
+  padding: 12px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.create-btn:hover {
+  background-color: #005f87;
+  transform: scale(1.03);
+}

@@ -1,0 +1,26 @@
+.progress-bar-container {
+  height: 24px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 8px;
+  cursor: default;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 12px 0 0 12px;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+}
+
+.progress-bar-container:hover .progress-bar-fill {
+  filter: brightness(1.1);
+}

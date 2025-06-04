@@ -1,0 +1,31 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* .heading {
+  background-color: #1976d2;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}  */
+
+.layout-body {
+  display: flex;
+  flex: 1;
+}
+
+/* .sidebar {
+  width: 130px;
+  background-color: #263238;
+  color: white;
+  padding: 1rem;
+} */
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}

@@ -1,0 +1,129 @@
+.report-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9fb;
+  min-height: 100vh;
+}
+
+.session-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.report-card {
+  background-color: #fff;
+  border-left: 6px solid #4a90e2;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.report-card:hover {
+  transform: scale(1.02);
+}
+
+.report-card h4 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.report-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.report-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007BFF;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.report-card a:hover {
+  text-decoration: underline;
+}
+
+.report-actions {
+  margin-top: 10px;
+}
+
+.report-actions button {
+  margin-right: 10px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #6c5ce7;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.report-actions button:hover {
+  background-color: #4834d4;
+}
+
+.report-form {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f4f6f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.report-form input,
+.report-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.report-form input:focus,
+.report-form textarea:focus {
+  border-color: #6c5ce7;
+  outline: none;
+}
+
+.report-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.report-form button {
+  padding: 10px 16px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.report-form button:hover {
+  background-color: #4834d4;
+}
+
+.report-form .cancel-btn {
+  background-color: #d63031;
+  margin-left: 10px;
+}
+
+.report-form .cancel-btn:hover {
+  background-color: #c0392b;
+}
+

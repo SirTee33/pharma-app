@@ -1,0 +1,142 @@
+/* TaskPage.css */
+.task-page-container {
+  padding: 20px;
+  background-color: #f4f6f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.task-search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.task-search-input:focus {
+  border-color: #4CAF50;
+}
+
+.task-filter-select,
+.task-sort-select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.task-filter-select:focus,
+.task-sort-select:focus {
+  border-color: #4CAF50;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 20px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.task-card:hover {
+  transform: scale(1.05);
+}
+
+.task-card h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.task-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.task-card .task-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.status-btn,
+.delete-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.status-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.completed {
+  background-color: #e8f5e9;
+  border-left: 5px solid #4CAF50;
+}
+
+.task-card .task-buttons button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.task-list p {
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+}
+
+.task-list .task-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.task-list .task-card h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.task-list .task-card p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,182 @@
+/* ProjectPage.css */
+.project-page-container {
+  padding: 20px;
+  background-color: #f4f6f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-input, .category-select, .sort-select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  outline: none;
+  width: 100%;
+}
+
+.search-input:focus, .category-select:focus, .sort-select:focus {
+  border-color: #4CAF50;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.project-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.delete-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 16px;
+  color: #333;
+}
+
+.project-card input,
+.project-card select,
+.project-card textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.project-card textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.project-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.project-actions button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-actions button:hover {
+  opacity: 0.9;
+}
+
+.project-actions button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.project-actions button:nth-child(2) {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}
+
+.save{
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.cancel{
+  background-color: red;
+  margin-left: 5px;
+  padding: 5px;
+  color: white;
+  border-radius: 3px;
+}
+/* react toast */
+
+

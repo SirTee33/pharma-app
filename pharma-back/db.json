@@ -1,0 +1,128 @@
+{
+  "projects": [
+    {
+      "title": "Regulatory Compliance Review for EU Market",
+      "category": "Regulatory Affairs",
+      "status": "In Progress",
+      "description": "Reviewing all product documentation and labeling to ensure compliance with EMA standards for upcoming submissions.",
+      "id": "bf7c"
+    },
+    {
+      "title": "Development of a New Antiviral Drug",
+      "category": "Research & Development",
+      "status": "Completed",
+      "description": "Research and development of a novel antiviral compound targeting RNA viruses, with initial focus on influenza strains.\n",
+      "id": "d2d4"
+    },
+    {
+      "title": "linical Trials for Hypertension Medication – Phase II",
+      "category": "Clinical Trials",
+      "status": "Pending",
+      "description": "Evaluating the safety and efficacy of a newly formulated antihypertensive drug in Phase II clinical trials.",
+      "id": "7024"
+    },
+    {
+      "title": "GMP Training",
+      "category": "Training",
+      "status": "In Progress",
+      "description": "Training on Good Manufacturing Practice.",
+      "id": "9b6e"
+    },
+    {
+      "title": "Cancer Drug Trial Face I",
+      "category": "Formulation Process",
+      "status": "Completed",
+      "description": "Formulation of Cancer Drug",
+      "id": "d0aa"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "9d4f",
+      "title": "Hypertension Trials ",
+      "description": "",
+      "dueDate": "2025-05-02",
+      "priority": "High",
+      "projectId": "7024",
+      "status": "In Progress"
+    },
+    {
+      "title": "Compliance Review",
+      "dueDate": "2025-10-06",
+      "status": "Pending",
+      "id": "f3df"
+    },
+    {
+      "id": "1a5a",
+      "title": "New Antiviral Drug",
+      "description": "Development of a New Antiviral Drug",
+      "dueDate": "2025-03-06",
+      "priority": "High",
+      "projectId": "d2d4",
+      "status": "Completed"
+    },
+    {
+      "title": "Lead Trainer ",
+      "dueDate": "2025-05-10",
+      "status": "Pending",
+      "id": "86c1"
+    },
+    {
+      "id": "5643",
+      "title": "Cancer Drug Formulation",
+      "description": "",
+      "dueDate": "2025-12-05",
+      "priority": "High",
+      "projectId": "d0aa",
+      "status": "Pending"
+    },
+    {
+      "id": "f70f",
+      "title": "Regulatory Compliance",
+      "description": "",
+      "dueDate": "2025-10-05",
+      "priority": "Medium",
+      "projectId": "bf7c",
+      "status": "Pending"
+    }
+  ],
+  "compliance": [
+    {
+      "id": "304a",
+      "document": "Mefanther Research",
+      "status": "Pending",
+      "reviewedBy": "Pharm Owodunni",
+      "dueDate": "52025-02-01"
+    },
+    {
+      "id": "bfba",
+      "document": "GMP Certificate",
+      "status": "Approved",
+      "reviewedBy": "Dr. Smith",
+      "dueDate": "2025-05-11"
+    },
+    {
+      "id": "99ab",
+      "document": "ISO 13485 Audit",
+      "status": "Pending",
+      "reviewedBy": "Auditor Jane",
+      "dueDate": "2025-05-06"
+    }
+  ],
+  "reports": [
+    {
+      "title": "New Product Approval",
+      "date": "2025-10-05",
+      "summary": "Approval of Mefanther Product to caution the effect of Malaria.",
+      "link": "https://example.com/reports/productapproval-2025.pdf",
+      "id": "c202"
+    },
+    {
+      "title": "GMP Compliance",
+      "date": "2025-05-11",
+      "summary": "Monitoring and Regulating Standards.",
+      "link": "https://example.com/reports/GMPcompliance-2025.pdf",
+      "id": "761f"
+    }
+  ]
+}
