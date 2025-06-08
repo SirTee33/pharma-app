@@ -1,20 +1,5 @@
 {
-  "projects": [
-    {
-      "id": "5536",
-      "title": "mefantehr",
-      "description": "malaria",
-      "category": "research",
-      "status": "In Progress"
-    },
-    {
-      "id": "6fce",
-      "title": "mefanther",
-      "description": "malaria",
-      "category": "research",
-      "status": "In Progress"
-    }
-  ],
+  "projects": [ ],
   "tasks": [],
   "compliance": [],
   "reports": []
