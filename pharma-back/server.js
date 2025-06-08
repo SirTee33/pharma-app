@@ -3,17 +3,17 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 
-const app = express();
+const server = express();
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults();
 
-app.use(cors()); //
-app.use(express.json());
-app.use(middlewares);
-app.use('/', router);
+server.use(cors()); //
+server.use(express.json());
+server.use(middlewares);
+server.use('/', router);
 
 // Start server
 const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => {
+server.listen(PORT, () => {
   console.log(`JSON Server is running on port ${PORT}`);
 });
