@@ -10,7 +10,7 @@ const middlewares = jsonServer.defaults();
 app.use(cors()); //
 app.use(express.json());
 app.use(middlewares);
-app.use('/projects', router);
+app.use('/', router);
 
 // Start server
 const PORT = process.env.PORT || 10000;
