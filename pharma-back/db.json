@@ -1,6 +1,84 @@
 {
-  "projects": [],
-  "tasks": [],
-  "compliance": [],
-  "reports": []
+  "projects": [
+    {
+      "id": 1,
+      "title": "Pharma Project Manager",
+      "category": "Software Development",
+      "status": "In Progress",
+      "description": "A project management tool for pharma compliance."
+    },
+    {
+      "id": 2,
+      "title": "Makeup E-Commerce",
+      "category": "E-Commerce",
+      "status": "Pending",
+      "description": "An online store for Happy-Glams Beauty products."
+    },
+    {
+      "id": 3,
+      "title": "Iya-Ilu Talking Drum Site",
+      "category": "Cultural",
+      "status": "Completed",
+      "description": "A React website showcasing Yoruba talking drums."
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Setup Backend API",
+      "description": "Create REST endpoints with json-server",
+      "dueDate": "2025-10-05",
+      "status": "Pending",
+      "priority": "High",
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "title": "UI Design for Storefront",
+      "description": "Design product listing and cart pages",
+      "dueDate": "2025-10-15",
+      "status": "In Progress",
+      "priority": "Medium",
+      "projectId": 2
+    },
+    {
+      "id": 3,
+      "title": "Deploy Drum Website",
+      "description": "Push site to GitHub Pages",
+      "dueDate": "2025-09-15",
+      "status": "Completed",
+      "priority": "Low",
+      "projectId": 3
+    }
+  ],
+  "compliance": [
+    {
+      "id": 1,
+      "title": "GDPR Check",
+      "status": "Completed",
+      "details": "Verified user data privacy compliance."
+    },
+    {
+      "id": 2,
+      "title": "Pharma Regulations",
+      "status": "Pending",
+      "details": "Ensure alignment with industry rules."
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "title": "Weekly Progress Report",
+      "projectId": 1,
+      "content": "Backend setup completed, frontend in progress.",
+      "date": "2025-09-28"
+    },
+    {
+      "id": 2,
+      "title": "Sales Summary",
+      "projectId": 2,
+      "content": "Expected launch by mid-October.",
+      "date": "2025-09-30"
+    }
+  ]
 }
