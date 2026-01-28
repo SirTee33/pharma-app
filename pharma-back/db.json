@@ -3,23 +3,23 @@
     {
       "id": 1,
       "title": "Pharma Project Manager",
+      "description": "A project management tool for pharma compliance.",
       "category": "Software Development",
-      "status": "In Progress",
-      "description": "A project management tool for pharma compliance."
+      "status": "In Progress"
     },
     {
       "id": 2,
       "title": "Makeup E-Commerce",
+      "description": "An online store for Happy-Glams Beauty products.",
       "category": "E-Commerce",
-      "status": "Pending",
-      "description": "An online store for Happy-Glams Beauty products."
+      "status": "Pending"
     },
     {
       "id": 3,
       "title": "Iya-Ilu Talking Drum Site",
+      "description": "A React website showcasing Yoruba talking drums.",
       "category": "Cultural",
-      "status": "Completed",
-      "description": "A React website showcasing Yoruba talking drums."
+      "status": "Completed"
     }
   ],
   "tasks": [
